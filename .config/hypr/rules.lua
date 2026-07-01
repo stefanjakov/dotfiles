@@ -32,6 +32,24 @@ hl.window_rule({
 -- overlayLayerRule:set_enabled(false)
 
 hl.window_rule({
+    name  = "nmtui-float",
+    match = { class = "nmtui-float" },
+
+    float  = true,
+    size   = "700 450",
+    center = true,
+})
+
+hl.window_rule({
+    name  = "btop-float",
+    match = { class = "btop-float" },
+
+    float  = true,
+    size   = "900 600",
+    center = true,
+})
+
+hl.window_rule({
     name  = "move-hyprland-run",
     match = { class = "hyprland-run" },
 
